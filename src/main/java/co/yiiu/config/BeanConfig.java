@@ -104,7 +104,7 @@ public class BeanConfig {
     return services;
   }
 
-  @Bean
+ /* @Bean
   public EmbeddedServletContainerFactory servletContainerFactory() {
     TomcatEmbeddedServletContainerFactory tomcat = new TomcatEmbeddedServletContainerFactory();
     tomcat.addConnectorCustomizers(connector -> {
@@ -116,7 +116,7 @@ public class BeanConfig {
       }
     });
     return tomcat;
-  }
+  }*/
 
   @Bean
   public static PropertySourcesPlaceholderConfigurer properties() {
